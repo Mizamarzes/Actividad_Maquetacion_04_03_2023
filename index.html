@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de contactos</title>
+    <title>Formulario</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer></script>
+    <script src="app.js" type="module" defer></script>
 </head>
 <body>
     <div class="container">
@@ -37,7 +37,7 @@
                
                 <div class="social-media">
                     <p>Connect with us :</p>
-                    <div class="social-icon">
+                    <div class="social-icons">
                         <a href="#">
                             <i class="fab fa-facebook-f"></i>    
                         </a>
@@ -57,8 +57,7 @@
             <div class="contact-form">
                 <span class="circle one"></span>
                 <span class="circle two"></span>
-
-                <form action="index.html">
+                <form id="myFrom" action="https://mizamarzes.000webhostapp.com/Actividad_Maquetacion_04_03_2023/api.php">
                     <h3 class="title">Contact us</h3>
                     <div class="input-container">
                         <input type="text" name="name" class="input"/>

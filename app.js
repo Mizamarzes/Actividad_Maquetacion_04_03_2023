@@ -1,3 +1,6 @@
+import formulario from "./components/formulario.js";
+formulario.Send();
+
 const inputs = document.querySelectorAll(".input");
 
 function focusFunc() {
