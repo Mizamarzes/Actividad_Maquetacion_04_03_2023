@@ -1,0 +1,13 @@
+:root{
+    --color-background:#000000;
+    --color-primary:#EEEEEE;
+    --color-primary-2:#DC5F00;
+    --color-shadow:#EEEEEE;
+    --color-title:#EEEEEE;
+    --color-lorem:#EEEEEE;
+}
+
+::selection{
+    background-color: var(--color-primary-2);
+    color: var(--color-background);
+}

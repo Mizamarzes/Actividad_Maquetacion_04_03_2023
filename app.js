@@ -1,4 +1,5 @@
 import formulario from "./components/formulario.js";
+formulario.Data();
 formulario.Send();
 
 const inputs = document.querySelectorAll(".input");
